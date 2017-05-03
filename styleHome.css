@@ -1,0 +1,100 @@
+#barre {
+	background-color: #c3272b;
+	text-align: center;
+	height: 36 px;
+	padding:0;
+	margin:0;
+}
+#barre li {
+	display: inline;
+	list-style: none;
+}
+#barre a {
+	display: inline-block;
+	padding: 0 100px;
+	text-decoration: underline;
+	color: black;
+	font-family: broadway;
+	font-size:1.2em;
+	height: 36px;
+	line-height: 36px;
+	
+}
+#barre a:hover {
+	color: #c3272b;
+	background-color: #f7f4f4;
+	text-shadow:-1px -1px 0px #f7f4f4;
+}
+
+.wrap {
+            width: 328px;
+            min-height:440px;
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+}
+.carousel {
+            position: absolute;
+            transition: all 0.5s ease-in 0s;
+}
+        
+        
+.carousel div {
+            float: left;
+            text-align: center;
+}
+.button {
+            text-align: center;
+}
+#left{
+	position:absolute;
+	left: 7.5px;
+	width: 25%;	
+	margin: 1% 0 0 0;
+}
+section {
+	position: relative;
+	left: 10%;
+	width: 74%;
+	padding:0 1%;
+	margin:1% 0 100px 0;
+}
+#p {
+	position: relative;
+	left: 25%;
+	width: 70%;
+	padding:0 1%;
+	margin:1% 0 80px 0;
+}
+
+h2 {
+  font-family: broadway,
+  font-size: 10pt; 
+  color: red; 
+}
+.box{width:328px; text-align:center; font-szie:18px;}
+.box img {width:100%;
+}
+.gallery figure {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    position: relative;
+}
+#col1, #col2 {
+	width:10%;
+	padding: 0.8%;
+	text-align: justify;
+	vertical-align: top;
+}
+
+footer {
+	text-align: center;
+}
+form>input{
+    border-radius: 25px;　
+    width: 400px;　　　　　　 
+    outline: none;　　　　　　
+    
+}
